@@ -1,35 +1,3 @@
-@font-face {
-    font-family: "HelveticaNeueBold";
-    src: url(../fonts/HelveticaNeueBold.ttc);
-  }
-
-@font-face {
-    font-family: "HelveticaNeueLight";
-    src: url(../fonts/HelveticaNeueLight.ttc); 
-}
-
-@font-face {
-    font-family: "HelveticaNeueMedium";
-    src: url(../fonts/HelveticaNeueMedium.ttc); 
-}
-
-@font-face {
-    font-family: "HelveticaNeueRegular";
-    src: url(../fonts/HelveticaNeueRegular.ttc); 
-}
-
-@font-face {
-    font-family: "HelveticaNeueThin";
-    src: url(../fonts/HelveticaNeueThin.ttc); 
-}
-
-@font-face {
-    font-family: "HelveticaNeueUltraLight";
-    src: url(../fonts/HelveticaNeueUltraLight.ttc); 
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -42,9 +10,12 @@ p {
 
 html {
     font-size: 10px;
-    font-family: "Helvetica Neue";
 }
 
+body {
+    font-family: nimbus-sans,sans-serif;
+    font-weight: 300;
+}
 
 .background {
     width: 100vw;
@@ -61,7 +32,6 @@ html {
     height: 100%;
     border-right: .2rem white solid;
     margin-left: 2.1rem;
-    
     display: block;
 }
 
@@ -74,16 +44,17 @@ html {
 .intro {
     margin-top: 5.2rem;
     margin-bottom: 0rem;
-    font-family: "HelveticaNeueBold";
+    font-family: nimbus-sans,sans-serif;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
+
     /* font-kerning: auto; */
 }
 
 .why {
     padding-top: 2.6rem;
-    font-family: "HelveticaNeueRegular";
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
@@ -91,8 +62,9 @@ html {
 }
 
 h1 {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 500;
     padding-top: 2.6rem;
-    font-family: "HelveticaNeueRegular";
     text-transform: uppercase;
     font-size: 1.3rem;
     line-height: 26px;
@@ -103,7 +75,6 @@ h1 {
 
 .based {
     padding-top: 2.6rem;
-    font-family: "HelveticaNeueRegular";
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
@@ -112,7 +83,8 @@ h1 {
 }
 
 .based a {
-    font-family: "HelveticaNeueRegular";
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 26px;
     text-decoration: underline;
@@ -120,21 +92,20 @@ h1 {
 }
 
 .learning-process, .based, p {
-    font-family: "HelveticaNeueRegular";
+
     font-size: 1.3rem;
     line-height: 26px;
     bottom:0;
     margin-right: 1rem;
-    font-weight: bolder;
+
 }
 
 .goal p {
-    font-family: "HelveticaNeueRegular";
+
     font-size: 1.3rem;
     line-height: 26px;
     bottom:0;
     margin-right: 0rem;
-    font-weight: bolder;
 }
 
 .social-icons img {
@@ -202,7 +173,9 @@ img {
 
 
 .project-quote p {
-    font-family: "HelveticaNeueRegular";
+
+
+    font-style: normal;
     font-size: 1.3rem;
     line-height: 26px;
     bottom:0;
