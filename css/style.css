@@ -78,7 +78,6 @@ html {
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
-    font-weight: bolder;
     /* font-kerning: auto; */
 }
 
@@ -88,7 +87,7 @@ html {
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
-    font-weight: bolder;
+
 }
 
 h1 {
@@ -99,7 +98,6 @@ h1 {
     line-height: 26px;
     margin-right: 1rem;
     margin-bottom: 0;
-    font-weight: bolder;
     color: #A6A6A6;
 }
 
@@ -109,7 +107,6 @@ h1 {
     font-size: 1.3rem;
     line-height: 26px;
     margin-right: 1rem;
-    font-weight: bolder;
     display: flex;
     flex-flow: row wrap;
 }
@@ -118,7 +115,6 @@ h1 {
     font-family: "HelveticaNeueRegular";
     font-size: 1.3rem;
     line-height: 26px;
-    font-weight: bolder;
     text-decoration: underline;
     color: black;
 }
