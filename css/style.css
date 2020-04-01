@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "HelveticaNeueBold";
+    src: url(../fonts/HelveticaNeueBold.ttc);
+  }
+
+@font-face {
+    font-family: "HelveticaNeueLight";
+    src: url(../fonts/HelveticaNeueLight.ttc); 
+}
+
+@font-face {
+    font-family: "HelveticaNeueMedium";
+    src: url(../fonts/HelveticaNeueMedium.ttc); 
+}
+
+@font-face {
+    font-family: "HelveticaNeueRegular";
+    src: url(../fonts/HelveticaNeueRegular.ttc); 
+}
+
+@font-face {
+    font-family: "HelveticaNeueThin";
+    src: url(../fonts/HelveticaNeueThin.ttc); 
+}
+
+@font-face {
+    font-family: "HelveticaNeueUltraLight";
+    src: url(../fonts/HelveticaNeueUltraLight.ttc); 
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Helvetica Neue";
+}
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F6F7;
+    border: 1.2rem white solid;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.left-section {
+
+    width: 38rem;
+    height: 100%;
+    border-right: .2rem white solid;
+    margin-left: 2.1rem;
+    
+    display: block;
+}
+
+.left-section .logo{
+    width: 6rem;
+    height: auto;
+    margin-top: 2.6rem;
+}
+
+.intro {
+    margin-top: 5.2rem;
+    margin-bottom: 0rem;
+    font-family: "HelveticaNeueBold";
+    font-size: 1.3rem;
+    line-height: 26px;
+    margin-right: 1rem;
+    font-weight: bolder;
+    /* font-kerning: auto; */
+}
+
+.why {
+    padding-top: 2.6rem;
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+h1 {
+    padding-top: 2.6rem;
+    font-family: "HelveticaNeueRegular";
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    line-height: 26px;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    font-weight: bolder;
+    color: #A6A6A6;
+}
+
+.based {
+    padding-top: 2.6rem;
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    margin-right: 1rem;
+    font-weight: bolder;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.based a {
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+}
+
+.learning-process, .based, p {
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    bottom:0;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.goal p {
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    bottom:0;
+    margin-right: 0rem;
+    font-weight: bolder;
+}
+
+.social-icons img {
+    margin-right: 1.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+.social-icons {
+    width: 6rem;
+    height: 1.0rem;
+    margin-top: 2.6rem;
+    position: absolute;
+    bottom: 3.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-section {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ref {
+    width: auto;
+    height: auto;
+    margin-left: 22%;
+    margin-right: 22%;
+    border: .8rem white solid;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrows {
+    width: 2rem;
+    height: auto;
+    margin: 8rem;
+    position: relative;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-quote {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-quote p {
+    font-family: "HelveticaNeueRegular";
+    font-size: 1.3rem;
+    line-height: 26px;
+    bottom:0;
+    margin-right: 0rem;
+    font-weight: bolder;
+}
