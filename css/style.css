@@ -29,7 +29,7 @@ body {
 
 .left-section {
 
-    width: 44rem;
+    width: 50rem;
     height: 100%;
     border-right: .2rem white solid;
     margin-left: 2.1rem;
@@ -59,25 +59,27 @@ body {
 }
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding-top: 2.6rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     line-height: 26px;
     margin-right: 1rem;
     margin-bottom: 0;
-    color: #A6A6A6;
+    color: rgb(196, 196, 196);
 }
 
 .based {
     padding-top: 2.6rem;
     line-height: 26px;
     margin-right: 1rem;
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
+
 }
 
 .based a {
+    padding-top: 2.6rem;
+    display: block;
     line-height: 26px;
     text-decoration: underline;
     color: black;
@@ -128,10 +130,8 @@ h1 {
 .elements-project {
     width: auto;
     height: auto;
-    margin-top: 8%;
+    margin-top: auto;
     margin-bottom: auto;
-
-
 }
 
 .ref {
@@ -148,7 +148,7 @@ h1 {
 }
 
 .project-quote {
-    margin-top: 5.2rem;
+    margin-top: 2.6rem;
     display: block;
     position: relative;
     text-align: center;
