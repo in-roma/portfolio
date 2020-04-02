@@ -23,63 +23,97 @@ body {
     height: auto;
     background-color: #F6F6F7;
     border: 1.2rem white solid;
+    margin: 0rem;
     display: flex;
     flex-flow: row nowrap;
 }
 
 .left-section {
-
+    position: relative;
     width: 100%;
-    height: 100%;
-    border-right: .2rem white solid;
-    margin-left: 2.1rem;
+    height: auto;
+    /* border-right: .2rem white solid; */
+    margin-left: 0;
+    padding-left: 0;
     display: block;
 }
 
 .left-section .logo{
+    position: relative;
     width: 6rem;
     height: auto;
     margin-top: 2.6rem;
+    margin-left: 1.5rem;
 }
 
 .intro {
-
+    position: relative;
+    line-height: 26px;
     margin-top: 5.2rem;
     margin-bottom: 0rem;
-    line-height: 26px;
-    margin-right: 1rem;
+}
 
-  
+.intro p {
+    position: relative;
+    line-height: 26px;
+    margin-right: 4rem;
+    padding-left: 2.1rem; 
 }
 
 .why {
-    padding-top: 2.6rem;
+    position: relative;
     line-height: 26px;
-    margin-right: 3rem;
-
+    padding-top: 2.6rem;
+    padding-bottom: 0rem;
 }
 
-h1 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding-top: 2.6rem;
-    /* text-transform: uppercase; */
+.why p {
+    position: relative;
     line-height: 26px;
-    margin-right: 1rem;
-    margin-bottom: 0;
-    color: rgb(155, 155, 155);
+    margin-right: 4rem;
+    padding-left: 2.1rem; 
+}
+
+.learning-process {
+    position: relative;
+    line-height: 26px;
+}
+
+.learning-process p {
+    position: relative;
+    line-height: 26px;
+    margin-right: 2rem;
+    padding-left: 2.1rem; 
+}
+
+.goals {
+    position: relative;
+    line-height: 26px;
+}
+
+.goals p {
+    position: relative;
+    line-height: 26px;
+    margin-right: 2rem;
+    padding-left: 2.1rem; 
 }
 
 .based {
+    position: relative;
+    line-height: 26px;
     padding-top: 2.6rem;
+}
+
+.based p {
+    position: relative;
     line-height: 26px;
     margin-right: 2rem;
-    display: block;
-
+    padding-left: 2.1rem; 
 }
 
 .based a {
-    padding-top: 2.6rem;
+    position: relative;
+    padding-left: 2.1rem; 
     padding-bottom: 5.2rem;
     display: block;
     line-height: 26px;
@@ -87,31 +121,33 @@ h1 {
     color: black;
 }
 
-.learning-process, .based, p {
-
+h1 {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 2.6rem;
     line-height: 26px;
-    bottom:0;
-    margin-right: 4rem;
-
-}
-
-.goal p {
-    line-height: 26px;
-    bottom:0;
-    margin-right: 0rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+    padding-left: 2.1rem; 
+    margin-bottom: 0;
+    color: rgb(155, 155, 155);
 }
 
 .social-icons img {
+    position: relative;
     margin-right: 1.2rem;
+    margin-left: 0rem;
+    padding-left: 0rem; 
     width: 2.4rem;
-    height: 2.4rem;
+    height: 2.4rem;    
 }
-
 
 .social-icons {
     position: relative;
     width: 6rem;
     height: 1.0rem;
+    margin-left: 2.1rem;
     padding-top: 5.2rem;
     /* bottom: 3.8rem; */
     display: flex;
@@ -125,50 +161,43 @@ h1 {
 }
 
 .project-section-smallscreen {
-    width: 80vw;
+    width: 100%;
     position: relative;
     margin-top: 2.6rem;
-    margin-left: 1.2rem;
-    right: 1.2rem;
+    display: block;
+}
+
+.elements-project {
+    width: auto;
+    height: auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(12%);
-}
-
-.elements-project {
-    width: 80vw;
-    height: auto;
-
 }
 
 .ref {
-    width: 70vw;
+    width: 90%;
     height: auto;
-    margin-left: 0;
-    margin-right: 0;
     border: .8rem white solid;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    border: 1 px green solid;
+
 }
 
 .project-quote {
-    /* margin-top: 2.6rem;
-    display: block;
-    position: relative;
-    text-align: center; */
-display: none;
+    margin-top: 2.6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+/* display: none; */
 }
 
 .arrows {
+    position: relative;
     width: 2rem;
     height: auto;
-    margin: 2rem;
-    position: relative;
+    margin: 2.6rem 4rem;
+
 }
 
 img {
@@ -179,7 +208,14 @@ img {
 
 
 .project-quote p {
+    width: auto;
+    height: auto;
+
+}
+
+.center-ref {
     line-height: 26px;
+    font-size: 1.2rem;
     bottom:0;
     margin-right: 0rem;
     font-weight: bolder;
